@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-nav a{
+border-radius: 7px;
+    padding: 5px 10px;
+    transition: all 1s;
+}
+.main-nav a:hover{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+}
+.main-nav a:focus{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+}
+.nav a:hover{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+}
+.nav a:focus{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+}
+
+.nav li a{
+    width: 100%;
+    border-radius: 7px;
+    padding: 5px 10px;
+    transition: all 1s;
+}
